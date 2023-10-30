@@ -80,6 +80,11 @@ function Login() {
               <b>Cliclk Here</b>
             </NavLink>
           </h5>
+          <div>
+            <p>EMail:sham29.b@gmail.com</p>
+            <p>password:1234</p>
+            <p>role:Admin</p>
+          </div>
         </Card>
       </div>
     </>

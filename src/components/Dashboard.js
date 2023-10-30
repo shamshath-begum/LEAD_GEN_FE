@@ -99,8 +99,7 @@ function Dashboard() {
         })}
       </div>
 
-      <Button onClick={() => exportFile()}>Export </Button>
-      <PieChart />
+      
 
       <div className=" container-fluid mt-5 ">
         <Table striped bordered hover>
@@ -134,6 +133,9 @@ function Dashboard() {
           </tbody>
         </Table>
       </div>
+
+      <Button onClick={() => exportFile()}>Export </Button>
+      <PieChart />
     </>
   );
 }
