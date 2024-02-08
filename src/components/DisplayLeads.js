@@ -24,7 +24,7 @@ function DisplayLeads() {
 
       if (res.status === 200) {
         setLeads(res.data.leads);
-        toast.success("Lead Added Successfully");
+        // toast.success("Lead Added Successfully");
 
         console.log(res.data.leads);
       }
